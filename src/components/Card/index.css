@@ -1,0 +1,152 @@
+.card-wrapper {
+    width: 250px;
+    background-color: #F1F2F4;
+    padding: 15px 20px;
+    color: #4A5974;
+    border-radius: 8px;
+    max-height: 100vh;
+
+}
+
+.card-title-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.add-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+.div-list {
+    display: flex;
+    max-height: 500px;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.add-new-card {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.add-new-card:hover {
+    background-color: #c8c9cc;
+    transition: all 0.3s;
+}
+
+.add-img {
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.add-img:hover {
+    background-color: #c8c9cc;
+    transition: all 0.3s;
+}
+
+.add-text textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: 100%;
+    resize: none;
+}
+
+.add-text textarea:focus {
+    outline: none;
+}
+
+.text {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.text:hover {
+    border-color: blue;
+    transition: all 0.3s;
+}
+
+.input-title {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-title:focus {
+    background-color: #ffffff;
+    outline: none;
+}
+
+.card-title-top span {
+    cursor: pointer;
+    padding: 4px 7px;
+    border-radius: 4px;
+
+}
+
+.card-title-top span:hover {
+    background-color: #c8c9cc;
+    transition: all 0.3s;
+}
+
+.btn-add {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-add button {
+    padding: 10px 12px;
+    background-color: #0047ca;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-add button:hover {
+    background-color: #032f80;
+    transition: all 0.3s;
+}
+
+.btn-add span {
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.btn-add span:hover {
+    background-color: #c8c9cc;
+}
